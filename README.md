@@ -11,7 +11,7 @@ the following line for each script:
 
 The `eagle` command is provided by the `eagle.py` script, and shows the first
 frame on each thread that is located in a file which is not a dynamic library.
-This is useful when in conjunction with libraries like
+This is useful when used in conjunction with libraries like
 [TAMPI](https://github.com/bsc-pm/tampi), which locks the current task.
 
 Example: A program is stuck in a deadlock with OmpSs-2 and TAMPI, but there are 47
